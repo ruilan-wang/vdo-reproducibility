@@ -1,0 +1,34 @@
+name: Import reproducibility release
+on:
+  push:
+    paths:
+      - release.zip
+permissions:
+  contents: write
+jobs:
+  import:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Import validated release
+        run: |
+          python - <<'PY'
+          import hashlib, pathlib, zipfile
+          p = pathlib.Path("release.zip")
+          assert hashlib.sha256(p.read_bytes()).hexdigest() == "8ca1ea8d8521b844d78766c4f2383273a3ff890128a2ddc2707aadabbcac6e83"
+          with zipfile.ZipFile(p) as z:
+              for info in z.infolist():
+                  parts = pathlib.PurePosixPath(info.filename).parts
+                  assert parts[0] == "vdo-paper" and ".." not in parts
+                  if len(parts) < 2 or parts[1] == ".github" or info.is_dir():
+                      continue
+                  dest = pathlib.Path(*parts[1:])
+                  dest.parent.mkdir(parents=True, exist_ok=True)
+                  dest.write_bytes(z.read(info))
+          p.unlink()
+          PY
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Add reproducible code, archived results, and figures"
+          git push

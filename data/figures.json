@@ -1,0 +1,374 @@
+[
+  {
+    "figure": 1,
+    "panel": "a",
+    "file": "paper_assets/figure_01_a.pdf",
+    "numeric_replot": true,
+    "sha256": "8453682d63017667a75da84a6a23924958cbbd53fc41a0d02f5dcc01d0366733",
+    "kind": "psro",
+    "game": "kuhn",
+    "oracle": "exact",
+    "data": "data/psro/exact/kuhn.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 1,
+    "panel": "b",
+    "file": "paper_assets/figure_01_b.pdf",
+    "numeric_replot": true,
+    "sha256": "589052f5e2ee17b900bf545168bfac7831ecc35734b471f1e979d6b6eb828f5b",
+    "kind": "psro",
+    "game": "leduc",
+    "oracle": "exact",
+    "data": "data/psro/exact/leduc.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 1,
+    "panel": "c",
+    "file": "paper_assets/figure_01_c.pdf",
+    "numeric_replot": true,
+    "sha256": "0a7877f515c52ea4c12f97566031f2a278b6afcd185679a73ff6edd2ccb02d3a",
+    "kind": "psro",
+    "game": "goofspiel4",
+    "oracle": "exact",
+    "data": "data/psro/exact/goofspiel4.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 2,
+    "panel": "a",
+    "file": "paper_assets/figure_02_a.pdf",
+    "numeric_replot": true,
+    "sha256": "a9d26ff4eacfaf1bd760cb175eaca4abeff397aa25ccf341670593d8158b2526",
+    "kind": "psro",
+    "game": "kuhn",
+    "oracle": "eps",
+    "data": "data/psro/eps/kuhn.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 2,
+    "panel": "b",
+    "file": "paper_assets/figure_02_b.pdf",
+    "numeric_replot": true,
+    "sha256": "826bcca38f23635b1625ab656e4de74f8725b2f47c3671de8b90116f79ed0ba8",
+    "kind": "psro",
+    "game": "leduc",
+    "oracle": "eps",
+    "data": "data/psro/eps/leduc.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 2,
+    "panel": "c",
+    "file": "paper_assets/figure_02_c.pdf",
+    "numeric_replot": true,
+    "sha256": "e3626233f64c14c6ec832fbb37f32efe2ca402a4f12d196e3371fb74bfc90e9c",
+    "kind": "psro",
+    "game": "goofspiel4",
+    "oracle": "eps",
+    "data": "data/psro/eps/goofspiel4.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 3,
+    "panel": "a",
+    "file": "paper_assets/figure_03_a.pdf",
+    "numeric_replot": true,
+    "sha256": "6e6c2fb3d737857c8222e0a233289997d396d9bad69eff9740c7de7255920144",
+    "kind": "psro",
+    "game": "kuhn",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/kuhn.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 3,
+    "panel": "b",
+    "file": "paper_assets/figure_03_b.pdf",
+    "numeric_replot": true,
+    "sha256": "63f89d566dea86390e8fae2a89ee522bd29ad47262e5ed5d77bf22fd5faa6bb7",
+    "kind": "psro",
+    "game": "leduc",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/leduc.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 3,
+    "panel": "c",
+    "file": "paper_assets/figure_03_c.pdf",
+    "numeric_replot": true,
+    "sha256": "bdced6e15a25a54311fc6b1fd54573e9baf21a5475eeec41fa8289c638ca7ae1",
+    "kind": "psro",
+    "game": "goofspiel4",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/goofspiel4.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 4,
+    "panel": "a",
+    "file": "paper_assets/figure_04_a.png",
+    "numeric_replot": true,
+    "sha256": "a1e0c9d106d2bedd0254d1e93671317f7c41ea79dd3fa005611bb4d2f04f6142",
+    "kind": "supplement"
+  },
+  {
+    "figure": 5,
+    "panel": "a",
+    "file": "paper_assets/figure_05_a.pdf",
+    "numeric_replot": true,
+    "sha256": "604538c00d139e5b546617199af39a62550af99d1c5279702adad551c33664d5",
+    "kind": "psro",
+    "game": "kuhn",
+    "oracle": "exact",
+    "data": "data/psro/exact/kuhn.json",
+    "selected_beta": null
+  },
+  {
+    "figure": 5,
+    "panel": "b",
+    "file": "paper_assets/figure_05_b.pdf",
+    "numeric_replot": true,
+    "sha256": "ac0b7d2c1532a07e80670d7082d6532a545fc52d500930955f502c5955c7152a",
+    "kind": "psro",
+    "game": "leduc",
+    "oracle": "exact",
+    "data": "data/psro/exact/leduc.json",
+    "selected_beta": null
+  },
+  {
+    "figure": 5,
+    "panel": "c",
+    "file": "paper_assets/figure_05_c.pdf",
+    "numeric_replot": true,
+    "sha256": "5c8043f6929b72d5ea68a4697ea2478a4e49b7b7eeddc1bfb16ab10b8cd13d41",
+    "kind": "psro",
+    "game": "goofspiel4",
+    "oracle": "exact",
+    "data": "data/psro/exact/goofspiel4.json",
+    "selected_beta": null
+  },
+  {
+    "figure": 6,
+    "panel": "a",
+    "file": "paper_assets/figure_06_a.png",
+    "numeric_replot": true,
+    "sha256": "6fce6c82d0a46b106b624eac058bd584d02e2edb18b4c9d24d6e74523a65d472",
+    "kind": "supplement"
+  },
+  {
+    "figure": 6,
+    "panel": "b",
+    "file": "paper_assets/figure_06_b.png",
+    "numeric_replot": true,
+    "sha256": "830a84c48d8ed43403064fdf8e0e0105793abae8e24ad473501e2c1f3fec6088",
+    "kind": "supplement"
+  },
+  {
+    "figure": 6,
+    "panel": "c",
+    "file": "paper_assets/figure_06_c.png",
+    "numeric_replot": true,
+    "sha256": "39d178ffed45be30fbb84b9169c3e9553795d20521e64ed5223ae8f7bf11dd04",
+    "kind": "supplement"
+  },
+  {
+    "figure": 7,
+    "panel": "a",
+    "file": "paper_assets/figure_07_a.png",
+    "numeric_replot": true,
+    "sha256": "8c768e2a38b7e784704613bef93bb3d0ee7ea142c9c44dad2931d86c838cf01c",
+    "kind": "supplement"
+  },
+  {
+    "figure": 7,
+    "panel": "b",
+    "file": "paper_assets/figure_07_b.png",
+    "numeric_replot": true,
+    "sha256": "2d056f9153526a8b7b30bab153d46e242d7cf053824fd68c409008f987fdc61c",
+    "kind": "supplement"
+  },
+  {
+    "figure": 7,
+    "panel": "c",
+    "file": "paper_assets/figure_07_c.png",
+    "numeric_replot": true,
+    "sha256": "6f79f54a425ee62cd948b8856eb9ddb74350fe84b4aee9358de0bab4eb74e3ea",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "a",
+    "file": "paper_assets/figure_08_a.png",
+    "numeric_replot": true,
+    "sha256": "a0ec0e0e77860e10a9cb02566f1cb4fb9fb44b37d8ce4de132c5cd1a2dddc709",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "b",
+    "file": "paper_assets/figure_08_b.png",
+    "numeric_replot": true,
+    "sha256": "1ab09f2c855d83e67f4c5f168251fa664dc44a32fcda1e2615953b0e654603bc",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "c",
+    "file": "paper_assets/figure_08_c.png",
+    "numeric_replot": true,
+    "sha256": "78fe9c084334f41113470c8b3af636c13b008d3513bff571cfdff6b771b028d7",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "d",
+    "file": "paper_assets/figure_08_d.png",
+    "numeric_replot": true,
+    "sha256": "151dcd6ccc97b8c243926804acf916691885728ed7d88cd527f1e58421d30aba",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "e",
+    "file": "paper_assets/figure_08_e.png",
+    "numeric_replot": true,
+    "sha256": "b69c0c5502b1f718220b6104544373c970fbed325fa8c00d42a4aa90de407cad",
+    "kind": "supplement"
+  },
+  {
+    "figure": 8,
+    "panel": "f",
+    "file": "paper_assets/figure_08_f.png",
+    "numeric_replot": true,
+    "sha256": "3bcdc966535bba89f0c3ad510619c92d78e5ccd829f60583c714498ce49913e7",
+    "kind": "supplement"
+  },
+  {
+    "figure": 9,
+    "panel": "a",
+    "file": "paper_assets/figure_09_a.png",
+    "numeric_replot": true,
+    "sha256": "8ffac0972a3fb1e1a3ed84d7e7b0afa8d9eb5120458a82dd5b0de73257fc1891",
+    "kind": "supplement"
+  },
+  {
+    "figure": 10,
+    "panel": "a",
+    "file": "paper_assets/figure_10_a.png",
+    "numeric_replot": true,
+    "sha256": "dd30e84f5790927161ebe92122fd116e6ecfd5158ca47cfefbef4de0f357a060",
+    "kind": "supplement"
+  },
+  {
+    "figure": 11,
+    "panel": "a",
+    "file": "paper_assets/figure_11_a.pdf",
+    "numeric_replot": true,
+    "sha256": "94248d39382e16eb2da3bc70ee9b6ad86860b11bf71968993ac9b295c4839ea4",
+    "kind": "psro",
+    "game": "blotto",
+    "oracle": "exact",
+    "data": "data/psro/exact/blotto.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 11,
+    "panel": "b",
+    "file": "paper_assets/figure_11_b.pdf",
+    "numeric_replot": true,
+    "sha256": "5567375ce96a79501e6f48a3631008a05e075734f78c73d97eefea6ab02522ee",
+    "kind": "psro",
+    "game": "poker_4r2s",
+    "oracle": "exact",
+    "data": "data/psro/exact/poker_4r2s.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 11,
+    "panel": "c",
+    "file": "paper_assets/figure_11_c.pdf",
+    "numeric_replot": true,
+    "sha256": "c0cf21050abf0c26aa8c056fffec37c4f96d37910a502baa463e5a5b42697a5d",
+    "kind": "psro",
+    "game": "liars_dice_5",
+    "oracle": "exact",
+    "data": "data/psro/exact/liars_dice_5.json",
+    "selected_beta": 2
+  },
+  {
+    "figure": 12,
+    "panel": "a",
+    "file": "paper_assets/figure_12_a.pdf",
+    "numeric_replot": true,
+    "sha256": "657035ad79adc8d03a820548558c1a640e18a019cd2fa0532dd55f1871fc3083",
+    "kind": "psro",
+    "game": "blotto",
+    "oracle": "eps",
+    "data": "data/psro/eps/blotto.json",
+    "selected_beta": 5
+  },
+  {
+    "figure": 12,
+    "panel": "b",
+    "file": "paper_assets/figure_12_b.pdf",
+    "numeric_replot": true,
+    "sha256": "deceb47152e96c5aebad3b104516b0ed2cecbdadb37e9cf4703860a675d26701",
+    "kind": "psro",
+    "game": "poker_4r2s",
+    "oracle": "eps",
+    "data": "data/psro/eps/poker_4r2s.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 12,
+    "panel": "c",
+    "file": "paper_assets/figure_12_c.pdf",
+    "numeric_replot": true,
+    "sha256": "20b3416d0d1dbc8cd865efed1466053a5ffdcb9dda04a2ebe8947c21412f1232",
+    "kind": "psro",
+    "game": "liars_dice_5",
+    "oracle": "eps",
+    "data": "data/psro/eps/liars_dice_5.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 13,
+    "panel": "a",
+    "file": "paper_assets/figure_13_a.pdf",
+    "numeric_replot": true,
+    "sha256": "4355c9ef18ef236398cab058b7542ab904e1a2a36e7dfc37661aa74fcb82c8eb",
+    "kind": "psro",
+    "game": "blotto",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/blotto.json",
+    "selected_beta": 5
+  },
+  {
+    "figure": 13,
+    "panel": "b",
+    "file": "paper_assets/figure_13_b.pdf",
+    "numeric_replot": true,
+    "sha256": "b42f1bd0d1a838d6c04c56e1717ea059630bc0b52b70f6039ae0c6299014a153",
+    "kind": "psro",
+    "game": "poker_4r2s",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/poker_4r2s.json",
+    "selected_beta": 50
+  },
+  {
+    "figure": 13,
+    "panel": "c",
+    "file": "paper_assets/figure_13_c.pdf",
+    "numeric_replot": true,
+    "sha256": "1ddb0bd00774dfa6cc58cb1d58f94a06419ecebc7c62ea40e7fb072d4a95578e",
+    "kind": "psro",
+    "game": "liars_dice_5",
+    "oracle": "sampled",
+    "data": "data/psro/sampled/liars_dice_5.json",
+    "selected_beta": 50
+  }
+]

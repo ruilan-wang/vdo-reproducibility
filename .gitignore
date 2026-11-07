@@ -1,0 +1,7 @@
+.venv/
+.venv-paco/
+__pycache__/
+*.py[cod]
+outputs/
+*.egg-info/
+.DS_Store

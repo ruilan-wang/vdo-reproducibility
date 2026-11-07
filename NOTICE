@@ -1,0 +1,16 @@
+Virtual Double Oracle research software
+Ruilan Wang, Francisco Aristi Reina and Katerina Papadaki
+
+This distribution contains source derived from OpenSpiel and Francisco Aristi
+Reina's VDO-PSRO implementation. Existing DeepMind copyright and Apache-2.0
+notices are retained in the source files to which they apply. The Apache-2.0
+license text is in LICENSES/Apache-2.0.txt.
+
+Modified distributions of those files retain their numerical algorithms;
+presentation and documentation have been adapted, and the VDOMetaSolver
+default selects the per-player protocol used by the paper.
+
+Copyright 2026 Ruilan Wang, Francisco Aristi Reina and Katerina Papadaki.
+
+The authors' contributions are licensed under the Apache License, Version 2.0.
+See LICENSE. Existing third-party notices and licensing terms continue to apply.

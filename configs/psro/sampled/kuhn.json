@@ -1,0 +1,65 @@
+{
+  "global": {
+    "game_name": "kuhn_poker",
+    "n_players": 2,
+    "sims_per_entry": 1,
+    "max_br": 200,
+    "number_policies_selected": 1,
+    "training_strategy_selector": "probabilistic",
+    "rectifier": "",
+    "symmetric_game": false,
+    "oracle_type": "BR",
+    "num_runs": 10,
+    "seed": 1,
+    "exact_payoffs": true,
+    "initial_policy": "random_pure",
+    "per_player_windows": true,
+    "approximate_br": {
+      "type": "sampled_target",
+      "num_samples": 10
+    },
+    "rne": true
+  },
+  "experiments": [
+    {
+      "name": "vdo_odo",
+      "meta_strategy_method": "vdo",
+      "vdo_beta": "inf",
+      "vdo_window_scale": 50,
+      "vdo_eta": 0.09090909090909091,
+      "normalize_payoffs": false
+    },
+    {
+      "name": "vdo_beta_1",
+      "meta_strategy_method": "vdo",
+      "vdo_beta": 1,
+      "vdo_window_scale": 50,
+      "vdo_eta": 0.09090909090909091,
+      "normalize_payoffs": false
+    },
+    {
+      "name": "vdo_beta_2",
+      "meta_strategy_method": "vdo",
+      "vdo_beta": 2,
+      "vdo_window_scale": 50,
+      "vdo_eta": 0.09090909090909091,
+      "normalize_payoffs": false
+    },
+    {
+      "name": "vdo_beta_5",
+      "meta_strategy_method": "vdo",
+      "vdo_beta": 5,
+      "vdo_window_scale": 50,
+      "vdo_eta": 0.09090909090909091,
+      "normalize_payoffs": false
+    },
+    {
+      "name": "vdo_fp_hard_br",
+      "meta_strategy_method": "vdo",
+      "vdo_beta": 0,
+      "vdo_window_scale": 0,
+      "vdo_eta": 0.09090909090909091,
+      "normalize_payoffs": false
+    }
+  ]
+}

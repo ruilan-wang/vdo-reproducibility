@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying Virtual Double Oracle paper when using this code."
+title: "Virtual Double Oracle: Faster Convergence by Leveraging Strategies That Were Watching All Along"
+type: software
+authors:
+  - family-names: Wang
+    given-names: Ruilan
+  - family-names: Aristi Reina
+    given-names: Francisco
+  - family-names: Papadaki
+    given-names: Katerina
+license: Apache-2.0
+version: 0.1.0
+date-released: 2026-11-07

@@ -1,0 +1,26 @@
+[project]
+name = "vdo-paper"
+version = "0.1.0"
+description = "Reproducible experiments for Virtual Double Oracle"
+readme = "README.md"
+license = "Apache-2.0"
+license-files = ["LICENSE", "NOTICE", "LICENSES/Apache-2.0.txt"]
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "numpy==2.3.5",
+    "scipy==1.17.0",
+    "matplotlib==3.10.8",
+    "open-spiel==1.6.11",
+    "cvxopt==1.3.3",
+    "networkx==3.7",
+    "absl-py==2.5.1",
+    "ml-collections==1.1.0",
+    "attrs==26.1.0",
+]
+
+[tool.uv]
+package = false
+
+[tool.black]
+line-length = 88
+target-version = ['py312']

@@ -1,0 +1,26 @@
+{
+  "exact": {
+    "kuhn": 2,
+    "leduc": 2,
+    "goofspiel4": 50,
+    "blotto": 2,
+    "poker_4r2s": 2,
+    "liars_dice_5": 2
+  },
+  "eps": {
+    "kuhn": 2,
+    "leduc": 50,
+    "goofspiel4": 50,
+    "blotto": 5,
+    "poker_4r2s": 50,
+    "liars_dice_5": 50
+  },
+  "sampled": {
+    "kuhn": 2,
+    "leduc": 50,
+    "goofspiel4": 50,
+    "blotto": 5,
+    "poker_4r2s": 50,
+    "liars_dice_5": 50
+  }
+}

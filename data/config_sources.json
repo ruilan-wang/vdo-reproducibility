@@ -1,0 +1,155 @@
+[
+  {
+    "config": "configs/psro/exact/kuhn.json",
+    "available": true,
+    "source_file": "experiment_kuhn_vdo.config",
+    "source_sha256": "698f14e3c04a1d59bfff48981e40ec3314a88578e35416d39b7ebe8ae79ae627",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/exact/leduc.json",
+    "available": true,
+    "source_file": "experiment_leduc_vdo.config",
+    "source_sha256": "81122633caea1a8672fe6a9a38d2366d0d1dbab0da0d2755d88459cbdd11238b",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/exact/goofspiel4.json",
+    "available": true,
+    "source_file": "experiment_goofspiel4_vdo.config",
+    "source_sha256": "d8da292bf836292f069e49b94b3281def0e9e5091dd64c5ddad2a0970525029b",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/exact/blotto.json",
+    "available": true,
+    "source_file": "experiment_blotto_vdo.config",
+    "source_sha256": "1a51e726f1b0a34c3e18d5c2ccdc14337fa0d4733c4a92b79a61d493fb058f42",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/exact/poker_4r2s.json",
+    "available": true,
+    "source_file": "experiment_poker_4r2s_vdo.config",
+    "source_sha256": "4bc2f74be13977c83d5b0f32450692532fc0d09146af58992e3c9604bea8e42f",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/exact/liars_dice_5.json",
+    "available": true,
+    "source_file": "experiment_liars_dice_5_vdo.config",
+    "source_sha256": "eeadae0ef690c1eddfbaf4e3342d612f0e07982fdc1489d048f984ac246b3520",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/kuhn.json",
+    "available": true,
+    "source_file": "experiment_kuhn_vdo_eps.config",
+    "source_sha256": "5d828538397410a4f1e175d182386e7860e252b1af84e8c6b78016a4f219bf85",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/leduc.json",
+    "available": true,
+    "source_file": "experiment_leduc_vdo_eps.config",
+    "source_sha256": "b3b6913f06cdf7edf57d23f85445bc7f5751ca4c948da356c4fea264ed2dbff8",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/goofspiel4.json",
+    "available": true,
+    "source_file": "experiment_goofspiel4_vdo_eps.config",
+    "source_sha256": "4e86169a6860933e44f9cb16b55543c9b0517552a727318692d40ba9cd31843c",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/blotto.json",
+    "available": true,
+    "source_file": "experiment_blotto_vdo_eps.config",
+    "source_sha256": "23479f6456f9a93214980db278fbc4f450cd9bbcb06d580a87c78ebf0fcf6117",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/poker_4r2s.json",
+    "available": true,
+    "source_file": "experiment_poker_4r2s_vdo_eps.config",
+    "source_sha256": "990e20b66bde7ed3dbcf3e2eeb719f63f49d8390f945ac40c4ced1f3dd427b6f",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/eps/liars_dice_5.json",
+    "available": true,
+    "source_file": "experiment_liars_dice_5_vdo_eps.config",
+    "source_sha256": "57e00978ababc194f227ef588a7a2c8f5deb4d998c1366f504933f8d9dbef4b0",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/sampled/kuhn.json",
+    "available": true,
+    "source_file": "experiment_kuhn_vdo_sampled.config",
+    "source_sha256": "c9fc9ed76a9bbcebd51ee43339a879b6e19cfd00a6ca021e305950ae018580d4",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/sampled/leduc.json",
+    "available": true,
+    "source_file": "experiment_leduc_vdo_sampled.config",
+    "source_sha256": "03390e51a4531a73c9769a2fd3b42a0629368f6dd627a9e0fb9f59ae8aa0a554",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/sampled/goofspiel4.json",
+    "available": true,
+    "origin": "instantiated from the sampled-target protocol in upstream README.md and games-ran.md, using the supplied game definition and recorded method/seed set",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "source_documents": [
+      "README.md",
+      "games-ran.md"
+    ],
+    "original_config_file_present": false
+  },
+  {
+    "config": "configs/psro/sampled/blotto.json",
+    "available": true,
+    "source_file": "experiment_blotto_vdo_sampled.config",
+    "source_sha256": "7ffc3f4dcadabb183a4c261bb48b1b728f518af94510a37feb79b3023de77779",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "origin": "supplied configuration file"
+  },
+  {
+    "config": "configs/psro/sampled/poker_4r2s.json",
+    "available": true,
+    "origin": "instantiated from the sampled-target protocol in upstream README.md and games-ran.md, using the supplied game definition and recorded method/seed set",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "source_documents": [
+      "README.md",
+      "games-ran.md"
+    ],
+    "original_config_file_present": false
+  },
+  {
+    "config": "configs/psro/sampled/liars_dice_5.json",
+    "available": true,
+    "origin": "instantiated from the sampled-target protocol in upstream README.md and games-ran.md, using the supplied game definition and recorded method/seed set",
+    "source_commit": "fb92f91d5ba5012fcede786cf2d24585e0b9423e",
+    "source_documents": [
+      "README.md",
+      "games-ran.md"
+    ],
+    "original_config_file_present": false
+  }
+]

@@ -4,6 +4,7 @@ Code and numerical results for **Virtual Double Oracle: Faster Convergence by
 Leveraging Strategies That Were Watching All Along**, by Ruilan Wang, Francisco
 Aristi Reina and Katerina Papadaki.
 
+Our PSRO code builds on [OpenSpiel’s `psro_v2` implementation](https://github.com/google-deepmind/open_spiel/blob/master/open_spiel/python/algorithms/psro_v2/psro_v2.py).
 The implementation includes Francisco Aristi Reina's VDO-PSRO meta-solver,
 exact tabular evaluator and controlled approximate-response oracles. Experiments
 run on CPUs; a GPU, JAX and PyTorch are not required.
